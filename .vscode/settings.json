@@ -1,0 +1,20 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.includeLanguages": {
+    "postcss": "css"
+  },
+  "less.validate": false,
+  "scss.validate": false,
+  "editor.quickSuggestions": {
+    "strings": false
+  },
+  "css.validate": false,
+  "unocss.root": "config/",
+  "i18n-ally.localesPaths": [
+    "src/locale",
+    "src/components/message-box/locale",
+    "src/views/dashboard/locale"
+  ]
+}
