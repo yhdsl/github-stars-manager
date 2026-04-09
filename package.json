@@ -13,7 +13,7 @@
     "preview": "npm run build && vite preview --host",
     "preinstall": "node ./scripts/preinstall.js",
     "postinstall": "simple-git-hooks",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "simple-git-hooks": {
     "commit-msg": "node scripts/verifyCommit.mjs"
