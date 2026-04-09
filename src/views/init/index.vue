@@ -15,10 +15,11 @@
           <a-input v-model="form.token" style="width: 240px"></a-input>
 
           <template #help>
-            get AccessToken from
+            从
             <a class="text-blue-500" href="https://github.com/settings/tokens">
-              Here
+              这里
             </a>
+            获取 AccessToken
           </template>
         </a-form-item>
         <a-form-item>
