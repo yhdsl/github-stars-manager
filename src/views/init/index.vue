@@ -16,7 +16,11 @@
 
           <template #help>
             从
-            <a class="text-blue-500" href="https://github.com/settings/tokens">
+            <a
+              class="text-blue-500"
+              href="https://github.com/settings/tokens"
+              target="_blank"
+            >
               这里
             </a>
             获取 AccessToken
