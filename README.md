@@ -1,6 +1,6 @@
-# Github stars 管理器
+# Github Stars 管理器
 
-这是一个用来管理你的 Github stars 的网页工具，它通过标签来管理和分类你的stars。所有的数据保存在你自己的 Github Gists 内。
+这是一个用来管理你的 Github Stars 的网页工具，它通过标签来管理和分类你的 Stars。所有的数据保存在你自己的 Github Gists 内。
 
 # 获取 AccessToken
 
