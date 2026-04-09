@@ -5,13 +5,15 @@
   "private": true,
   "author": "raythunder",
   "license": "MIT",
+  "homepage": "https://yhdsl.github.io/github-stars-manager/",
   "scripts": {
     "dev": "vite --config ./config/vite.config.dev.js --host",
     "build": "vite build --config ./config/vite.config.prod.js",
     "report": "cross-env REPORT=true npm run build",
     "preview": "npm run build && vite preview --host",
     "preinstall": "node ./scripts/preinstall.js",
-    "postinstall": "simple-git-hooks"
+    "postinstall": "simple-git-hooks",
+    "deploy": "gh-pages -d dist"
   },
   "simple-git-hooks": {
     "commit-msg": "node scripts/verifyCommit.mjs"
@@ -55,6 +57,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-vue": "^9.6.0",
+    "gh-pages": "^6.3.0",
     "husky": "^8.0.1",
     "less": "^4.1.3",
     "lint-staged": "^13.0.3",
