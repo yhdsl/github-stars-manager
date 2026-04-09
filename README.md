@@ -1,27 +1,13 @@
-English | [中文](README-CN.md)
+# Github stars 管理器
 
-# Github stars manager
+这是一个用来管理你的 Github stars 的网页工具，它通过标签来管理和分类你的stars。所有的数据保存在你自己的 Github Gists 内。
 
-This is a web tool designed to manage your GitHub stars. It uses tags to organize and categorize your starred repositories. All data is saved in your own GitHub Gists.
+# 获取 AccessToken
 
-## [Demo](https://github-stars-manager-7oxg.vercel.app/#/dashboard)
+从 [这里](https://github.com/settings/tokens) 获取 AccessToken
 
-![screen](screen/screen.png)
+如果你需要长期使用，过期时间请选择 No expiration
 
-The preview of the README.md file matches the official format.
-
-![screen3](screen/screen3.png)
-
-# Get your personal access token
-
-Get access token from [Here](https://github.com/settings/tokens)
-
-If you need to use it for an extended period of time, choose 'No expiration' for the expiration time.
-
-![screen1](screen/screen1.png)
+[//]: # (![screen1]&#40;screen/screen1.png&#41;)
 
 ![screen2](screen/screen2.png)
-
-# Star loader from here
-
-https://codepen.io/slyka85/pen/QvBQPb
